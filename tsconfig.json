@@ -1,19 +1,11 @@
 {
   "compilerOptions": {
-    "baseUrl": "./",
-    "sourceMap": false,
-    "inlineSources": false,
-    "removeComments": false,
-    "target": "ES2022",
-    "module": "NodeNext",
-    "declaration": true,
-    "outDir": "./dist",
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
+    "outDir": "dist",
+    "module": "commonjs",
+    "target": "es6",
     "esModuleInterop": true,
-    "resolveJsonModule": true,
-    "paths": {
-      "~/*": ["src/*"]
-    }
-  }
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"]
 }
